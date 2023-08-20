@@ -1,0 +1,12 @@
+<template>
+	<div class="reportDetailContainer"></div>
+</template>
+
+<script setup lang="ts" name="reportDetail">
+	import { getCurrentInstance, ref, reactive, onMounted } from "vue"; import type { FormInstance, FormRules } from "element-plus";
+	import { Edit, Delete, Plus } from "@element-plus/icons-vue"; const { proxy: { $Urls, $Request, $Modal } } =
+	getCurrentInstance() as any; let typeList = ref([]); defineExpose({}); onMounted(() => { search(); });
+</script>
+<style lang="scss" scoped>
+	@import "./index.scss";
+</style>
