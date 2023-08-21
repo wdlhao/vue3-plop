@@ -1,10 +1,9 @@
 <template>
-	<div class="dataScreenContainer"></div>
+	<div class="ReportDetail3Container"></div>
 </template>
 
-<script setup lang="ts" name="dataScreen">
+<script setup lang="ts" name="ReportDetail3">
 import { getCurrentInstance, ref, reactive, onMounted } from "vue";
-
 import { useRouter } from "vue-router";
 
 const {
@@ -17,7 +16,6 @@ defineExpose({});
 
 onMounted(() => {});
 </script>
-
 <style lang="scss" scoped>
 @import "./index.scss";
 </style>

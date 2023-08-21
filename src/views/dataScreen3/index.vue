@@ -1,10 +1,9 @@
 <template>
-	<div class="dataScreenContainer"></div>
+	<div class="dataScreen3Container"></div>
 </template>
 
-<script setup lang="ts" name="dataScreen">
+<script setup lang="ts" name="dataScreen3">
 import { getCurrentInstance, ref, reactive, onMounted } from "vue";
-
 import { useRouter } from "vue-router";
 
 const {

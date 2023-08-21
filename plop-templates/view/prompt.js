@@ -86,12 +86,12 @@ module.exports = {
 			{
 				type: "add",
 				path: `src/views/${name}/index.vue`,
-				templateFile: "plop-templates/view/index.hbs"
+				templateFile: "plop-templates/view/index.vue"
 			},
 			{
 				type: "add",
 				path: `src/views/${name}/index.scss`,
-				templateFile: "plop-templates/view/index.scss.hbs"
+				templateFile: "plop-templates/view/index.scss"
 			},
 			{
 				type: "add",
@@ -104,12 +104,12 @@ module.exports = {
 			{
 				type: "add",
 				path: `src/views/${name}/components/${cpsName}/index.vue`,
-				templateFile: "plop-templates/view/components/index.cps.hbs"
+				templateFile: "plop-templates/view/components/index.cps.vue"
 			},
 			{
 				type: "add",
 				path: `src/views/${name}/components/${cpsName}/index.scss`,
-				templateFile: "plop-templates/view/components/index.cps.scss.hbs"
+				templateFile: "plop-templates/view/components/index.cps.scss"
 			}
 		];
 
@@ -118,7 +118,7 @@ module.exports = {
 				type: "append",
 				pattern: /routes*\:* \[/,
 				path: "src/router/index.ts",
-				templateFile: "plop-templates/router/index.hbs",
+				templateFile: "plop-templates/router/index.vue",
 				data: {
 					name: "{{name}}",
 					menu: "{{menu}}"

@@ -3,10 +3,20 @@
 </template>
 
 <script setup lang="ts" name="reportDetail">
-	import { getCurrentInstance, ref, reactive, onMounted } from "vue"; import type { FormInstance, FormRules } from "element-plus";
-	import { Edit, Delete, Plus } from "@element-plus/icons-vue"; const { proxy: { $Urls, $Request, $Modal } } =
-	getCurrentInstance() as any; let typeList = ref([]); defineExpose({}); onMounted(() => { search(); });
+import { getCurrentInstance, ref, reactive, onMounted } from "vue";
+
+import { useRouter } from "vue-router";
+
+const {
+	proxy: { $Urls, $Request, $Modal }
+} = getCurrentInstance() as any;
+
+const router = useRouter();
+
+defineExpose({});
+
+onMounted(() => {});
 </script>
 <style lang="scss" scoped>
-	@import "./index.scss";
+@import "./index.scss";
 </style>

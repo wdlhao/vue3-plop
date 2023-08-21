@@ -2,7 +2,7 @@
 
 module.exports = {
 	// 超过最大值换行
-	printWidth: 130,
+	printWidth: 80,
 	// 缩进字节数
 	tabWidth: 2,
 	// 使用制表符而不是空格缩进行
@@ -37,5 +37,7 @@ module.exports = {
 	// Vue文件脚本和样式标签缩进
 	vueIndentScriptAndStyle: false,
 	// 是否使用根目录下的EditorConfig配置文件
-	useEditorConfig: false
+	useEditorConfig: false,
+	// html中单属性换行
+	singleAttributePerLine: true
 };
