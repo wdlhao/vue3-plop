@@ -48,7 +48,6 @@ plopfile.js 中导出一个函数，该函数接受 plop 对象作为它的第�
 
 目录结构如图：
 
-![image](https://github.com/wdlhao/vue3-plop/tree/master/src/assets/imgs/directory.png)
 ![image](/src/assets/imgs/directory.png)
 
 view/index.vue 模板如下：
@@ -266,23 +265,23 @@ pnpm run plop view
 
 输入命令 pnpm run plop view
 
-![image.png](/images/plop/plopView.png)
+![image.png](/src/assets/imgs/plopView.png)
 
 生成文件如下：
 
-![image.png](/images/plop/file.png)
+![image.png](/src/assets/imgs/file.png)
 
 dataScreen/index.vue 模板内容如下：
 
-![image.png](/images/plop/dataScreenTel.png)
+![image.png](/src/assets/imgs/dataScreenTel.png)
 
 dataScreen/index.scss 模板样式如下：
 
-![image.png](/images/plop/dataScreenCss.png)
+![image.png](/src/assets/imgs/dataScreenCss.png)
 
 router/index.ts 路由内容如下：
 
-![image.png](/images/plop/routerTel.png)
+![image.png](/src/assets/imgs/routerTel.png)
 
 ## Plofile API
 
