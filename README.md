@@ -48,7 +48,7 @@ plopfile.js 中导出一个函数，该函数接受 plop 对象作为它的第�
 
 目录结构如图：
 
-![image.png](/images/plop/directory.png)
+![image](https://github.com/wdlhao/vue3-plop/src/assets/imgs/directory.png)
 
 view/index.vue 模板如下：
 
